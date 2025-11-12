@@ -388,7 +388,8 @@ async def start_command(client, message: Message):
                 "• TCP Keepalive for stable connections\n\n"
                 "<b>💎 Owner:</b> Mraprguild\n"
                 "<b>📧 Email:</b> mraprguild@gmail.com\n"
-                "<b>📱 Telegram:</b> @Sathishkumar33",
+                "<b>📱 Telegram:</b> @Sathishkumar33"
+                "<b>📱 Online Steaming Premium:</b> @aprfiletolinkpremiumbot",
         parse_mode=ParseMode.HTML
     )
 
