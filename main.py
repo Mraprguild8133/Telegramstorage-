@@ -651,7 +651,7 @@ async def upload_file_handler(client, message: Message):
         original_file_name = os.path.basename(file_path)
         encoded_name_for_start = encode_file_name(original_file_name)
         bot_username = (await client.get_me()).username
-        bot_download_link = f"https://t.me/{bot_username}?start=download_{encoded_name}"
+        bot_download_link = f"https://t.me/{bot_username}?start=download_{file_name}"
         
         # *** FIX for BUTTON_DATA_INVALID ***
         # Use short UUID for callback data instead of long encoded name
